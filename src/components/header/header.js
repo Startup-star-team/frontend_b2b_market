@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavDropdown, Nav, FormControl, Button, Form, Container, Row, Col} from 'react-bootstrap';
+import { Navbar, NavDropdown, Nav, FormControl, Button, Form, Container, Row, Col, Figure} from 'react-bootstrap';
 
 const Header = (props) => {
 
@@ -26,6 +26,175 @@ const Header = (props) => {
                             </Form>
                         </Navbar.Collapse>
                     </Navbar>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h2 className="text-center my-5">
+                        Категории товаров
+                    </h2>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center">
+            <Col md="auto">
+                <Figure className="mx-3">
+                    <Figure.Image
+                        width={120}
+                        height={180}
+                        roundedCircle
+                        alt="50x50"
+                        src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                    />
+                    <h6 className="text-center">
+                        TBD
+                    </h6>
+                </Figure>
+            </Col>
+            <Col md="auto">
+                <Figure className="mx-3">
+                    <Figure.Image
+                        width={120}
+                        height={180}
+                        alt="Джага-Джага Анальная пробка 7.3 см черная с зеленым кристаллом"
+                        src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                    />
+                    <h6 className="text-center">
+                        TBD
+                    </h6>
+                </Figure>
+            </Col>
+            <Col md="auto">
+                <Figure className="mx-3">
+                    <Figure.Image
+                        width={120}
+                        height={180}
+                        alt="Джага-Джага Анальная пробка 7.3 см черная с зеленым кристаллом"
+                        src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                    />
+                    <h6 className="text-center">
+                        TBD
+                    </h6>
+                </Figure>
+            </Col>
+            <Col md="auto">
+                <Figure className="mx-3">
+                    <Figure.Image
+                        width={120}
+                        height={180}
+                        alt="Джага-Джага Анальная пробка 7.3 см черная с зеленым кристаллом"
+                        src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                    />
+                    <h6 className="text-center">
+                        TBD
+                    </h6>
+                </Figure>
+            </Col>
+            <Col md="auto">
+                <Figure className="mx-3">
+                    <Figure.Image
+                        width={120}
+                        height={180}
+                        alt="50x50"
+                        src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                    />
+                    <h6 className="text-center">
+                        TBD
+                    </h6>
+                </Figure>
+            </Col>
+            <Col md="auto">
+                <Figure className="mx-3">
+                    <Figure.Image
+                        width={120}
+                        height={180}
+                        alt="50x50"
+                        src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                    />
+                    <h6 className="text-center">
+                        TBD
+                    </h6>
+                </Figure>
+            </Col>
+        </Row>
+            <Row className="justify-content-md-center">
+                <Col md="auto">
+                    <Figure className="mx-3">
+                        <Figure.Image
+                            width={120}
+                            height={180}
+                            roundedCircle
+                            alt="50x50"
+                            src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                        />
+                        <h6 className="text-center">
+                            TBD
+                        </h6>
+                    </Figure>
+                </Col>
+                <Col md="auto">
+                    <Figure className="mx-3">
+                        <Figure.Image
+                            width={120}
+                            height={180}
+                            alt="Джага-Джага Анальная пробка 7.3 см черная с зеленым кристаллом"
+                            src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                        />
+                        <h6 className="text-center">
+                            TBD
+                        </h6>
+                    </Figure>
+                </Col>
+                <Col md="auto">
+                    <Figure className="mx-3">
+                        <Figure.Image
+                            width={120}
+                            height={180}
+                            alt="Джага-Джага Анальная пробка 7.3 см черная с зеленым кристаллом"
+                            src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                        />
+                        <h6 className="text-center">
+                            TBD
+                        </h6>
+                    </Figure>
+                </Col>
+                <Col md="auto">
+                    <Figure className="mx-3">
+                        <Figure.Image
+                            width={120}
+                            height={180}
+                            alt="Джага-Джага Анальная пробка 7.3 см черная с зеленым кристаллом"
+                            src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                        />
+                        <h6 className="text-center">
+                            TBD
+                        </h6>
+                    </Figure>
+                </Col>
+                <Col md="auto">
+                    <Figure className="mx-3">
+                        <Figure.Image
+                            width={120}
+                            height={180}
+                            alt="50x50"
+                            src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                        />
+                        <h6 className="text-center">
+                            TBD
+                        </h6>
+                    </Figure>
+                </Col>
+                <Col md="auto">
+                    <Figure className="mx-3">
+                        <Figure.Image
+                            width={120}
+                            height={180}
+                            alt="50x50"
+                            src="//avatars.mds.yandex.net/get-marketcms/879900/img-6c2ba3e7-82b4-4682-9bb1-a798be58ec82.png/optimize"
+                        />
+                        <h6 className="text-center">
+                            TBD
+                        </h6>
+                    </Figure>
                 </Col>
             </Row>
         </Container>
