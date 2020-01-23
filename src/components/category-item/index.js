@@ -1,3 +1,3 @@
-import CategoryGrid from './category'
+import CategoryGrid from './category-item'
 
 export default CategoryGrid
